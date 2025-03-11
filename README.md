@@ -176,8 +176,8 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 #  Testing the API
 # 1. Create User (POST /api/users)
 {
-  "username": "john_doe",
-  "email": "john@example.com",
+  "username": "ankit",
+  "email": "ankit@example.com",
   "password": "securepassword",
   "roles": {
     "isSeller": true,
@@ -192,7 +192,7 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 Request body:
  {
-  "username": "john_doe_updated",
+  "username": "ankit_updated",
   "roles": {
     "isSeller": true,
     "isCustomer": false,
